@@ -71,6 +71,7 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("anitem", "Bật/Tắt hiển thị item trong map"));
             CommandChats.Add(new CommandChat("xhq", "Bật/Tắt hiển thị hào quang"));
             CommandChats.Add(new CommandChat("xht", "Bật/Tắt hiển thị hiệu ứng hợp thể"));
+            CommandChats.Add(new CommandChat("fpethome", "Bật/Tắt cho đệ về nhà khi hợp thể"));
             // Chức năng hỗ trợ
             CommandChats.Add(new CommandChat("s", "X", "Chỉnh tốc độ giày X"));
             CommandChats.Add(new CommandChat("speed", "X", "Cheat tốc độ game X"));
