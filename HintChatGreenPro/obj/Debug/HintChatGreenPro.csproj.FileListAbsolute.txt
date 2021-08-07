@@ -1,0 +1,9 @@
+C:\Users\phucp\source\repos\HintChatGreenPro\HintChatGreenPro\bin\Debug\HintChatGreenPro.exe.config
+C:\Users\phucp\source\repos\HintChatGreenPro\HintChatGreenPro\bin\Debug\HintChatGreenPro.exe
+C:\Users\phucp\source\repos\HintChatGreenPro\HintChatGreenPro\bin\Debug\HintChatGreenPro.pdb
+C:\Users\phucp\source\repos\HintChatGreenPro\HintChatGreenPro\obj\Debug\HintChatGreenPro.csproj.AssemblyReference.cache
+C:\Users\phucp\source\repos\HintChatGreenPro\HintChatGreenPro\obj\Debug\HintChatGreenPro.csproj.CoreCompileInputs.cache
+C:\Users\phucp\source\repos\HintChatGreenPro\HintChatGreenPro\obj\Debug\HintChatGreenPro.exe
+C:\Users\phucp\source\repos\HintChatGreenPro\HintChatGreenPro\obj\Debug\HintChatGreenPro.pdb
+C:\Users\phucp\source\repos\HintChatGreenPro\HintChatGreenPro\bin\Debug\LitJSON.dll
+C:\Users\phucp\source\repos\HintChatGreenPro\HintChatGreenPro\obj\Debug\HintChatGreenPro.csproj.CopyComplete

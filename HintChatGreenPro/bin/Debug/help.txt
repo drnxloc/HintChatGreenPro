@@ -1,0 +1,96 @@
+udt: Bật/Tắt hiển thị chỉ số đẹo real-time (Cập nhật trực tiếp trên màn hình)
+csdt: Mở chỉ số đệ tử
+chodau: Bật/Tắt cho đậu
+xindau: Bật/Tắt xin đậu
+thudau: Bật/Tắt thu đậu (Nhân vật phải đứng ở nhà)
+spean_X : Thêm nhân vật X vào danh sách được cho đậu (Chỉ định nhân vật nhận đậu thần)
+clspean: Xoá danh sách nhân vật nhận đậu thần
+vspean: Hiển thị danh sách nhận đậu thần
+askillX: Bật/Tắt auto skill X
+atc: Bật/Tắt auto chat
+atc_X: Thay đổi nội dung auto chat thành X
+actg: Bật/Tắt auto chat thế giới
+tatcgX: Set thời gian giữa mỗi lần chat thế giới (giây)
+actg_X: Thay đổi nội dung auto chat thế giới thành X
+vangX: Fake vàng ảo X
+ngocX: Fake ngọc xanh ảo X
+hngocX: Fake ngọc hồng ảo X
+smX: Fake sức mạnh ảo X
+tnX: Fake tiềm năng ảo X
+fname_X: Fake tên nhân vật ảo X
+u: Khinh công
+d: Độn thổ
+r: Dịch phải
+l: Dịch trái
+uX: Khinh công X
+dX: Độn thổ X
+lX: Dịch trái X
+rX: Dịch phải X
+chantn: Bật/Tắt chặn tin nhắn riêng
+confirm: Mở menu vừa xác nhận
+szone : Mở bảng đổi khu
+friend : Mở bảng bạn bè
+flag: Mở bảng đổi cờ
+enemy: Mở bảng kẻ thù
+petinfo: Mở thông tin đệ tử
+scsbX: Sử dụng menu X capsule bay
+ucapsule: Sử dụng capsule (Ưu tiên capsule đặc biệt)
+dbdctt: Nhấp đôi chuột dịch chuyển tới đối tượng đang chọn
+copy:  Bật/Tắt copy cải trang của nhân vật hoặc Npc được trỏ
+kvt: Bật/Tắt khoá vị trí
+c: Đóng băng skill hiện tại
+uitemX: Sử dụng itemID X
+gofocus: Dịch đến đối tượng đang trỏ
+maxcharX: Thiết lập số người tối đa trong khu là X
+neboss: Bật/Tắt né boss up đệ
+alogin: Bật/Tắt auto login khi mất kết nối
+akhu: Bật/Tắt vào khu cũ khi auto login
+xmp: Mở menu xmap
+xmpX: Dùng xmap tới map có id X
+csb: Dùng capsule thường xmap
+csdb: Dùng capsule đặc biệt xmap
+aitem: Bật/Tắt auto item có đếm ngược thời gian
+clitem: Xoá danh sách Auto Item
+aitemt: Bật/Tắt auto dùng item theo thời gian (Mặc định 5 giây)
+aitemtX: Thiết lập thời gian mỗi lần dùng item là X giây
+clitem: Xoá danh sách Auto Item
+autocs: Auto cộng chỉ số (Mặc định: HP: 1000 – KI: 500 – SĐ: 60)
+setcsX_Y_Z: Thiếp lập chỉ số HP: X – KI: Y – SĐ: Z
+adkb: Bật/Tắt auto vào đảo kho báu
+fusion: Bật/Tắt auto hợp thể
+fusionX: Thiết lập thời gian X giữa mỗi lần hợp thể
+upcskb: Bật/Tắt auto dùng máy dò up capsule kì bí
+upcskbX: Bật/Tắt auto dùng máy dò up capsule kì bí khi CSKB < X
+mocskb: Bật/Tắt auto mở cskb
+mocskbX: Bật/Tắt mở cskb mỗi Xmilis
+abp: Bật/Tắt auto capsule về nhà thu đậu
+goback : Bật/Tắt goback khi chết
+oclient : Kết nối với QLTK
+qclient: Thoát kết nối với QLTK
+iclient: Trạng thái kết nối với QLTK
+add: Thêm/Xoá quái hoặc vật phẩm ở danh sách tương ứng
+addt: Thêm/Xoá loại quái hoặc loại vật phẩm ở danh sách tương ứng
+ts: Bật/Tắt tự động đánh quái
+nsq: Bật/Tắt né siêu quái khi tự động đánh quái (Mặc định bật)
+addmX: Thêm vào/Xoá khỏi danh sách đánh quái id X (X là id quái)
+addtm: Thêm vào/Xoá khỏi danh sách đánh loại quái id X (X là id loại quái)
+clrm: Xoá danh sách tàn sát
+skill: Thêm vào/Xoá khỏi danh sách skill sử dụng tự động đánh quái
+skillX: Thêm vào/Xoá khỏi danh sách skill sử dụng tự động đánh quái skill thứ X (X là thứ tự skill)
+skillidX: Thêm vào/Xoá khỏi danh sách skill sử dụng tự động đánh quái skill id X ( là id skill)
+clrs: Đặt danh sách skill sử dụng tự động đánh quái về mặc định
+abf: Bật/Tắt tự động sử dụng đậu thần (KI, HP dưới 20%)
+abfX: Bật tự động sử dụng đậu thần khi HP dưới X%
+abfX_Y: Bật tự động sử dụng đậu thần khi HP dưới X%, KI dưới Y%
+vdh: Bật/Tắt vượt địa hình (mặc định Bật)
+anhat: Bật/Tắt tự động nhặt vật phẩm (Mặc định bật)
+itm: Bật/Tắt lọc không nhặt vật phẩm của người khác (Mặc định bật)
+sln: Bật/Tắt giới hạn số lần tự động nhặt một vật phẩm (Mặc định bật)
+slnX: Thay đổi giới hạn số lần nhặt là X (Mặc định X = 7)
+addiX: Thêm vào/Xoá khỏi danh sách chỉ tự động nhặt vật phẩm id X (X là id vật phẩm)
+blocki: Thêm vào/Xoá khỏi danh sách không tự động nhặt vật phẩm đang trỏ
+blockiX: Thêm vào/Xoá khỏi danh sách không tự động nhặt vật phẩm id X
+addtiX: Thêm vào/Xoá khỏi danh sách chỉ tự động nhặt loại vật phẩm id X(X là id loại vật phẩm)
+blocktiX: Thêm vào/Xoá khỏi danh sách không tự động nhặt loại vật phẩm id X
+clri: Cài đặt lại danh sách lọc vật phẩm vể mặc định (danh sách chỉ nhặt và danh sách chặn)
+cnn: Cài đặt nhanh chỉ nhặt ngọc (tương ứng lệnh chat "clri" và "addi77")
