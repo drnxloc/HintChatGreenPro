@@ -119,6 +119,7 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("d", "X", "Độn thổ X"));
             CommandChats.Add(new CommandChat("l", "X", "Dịch trái X"));
             CommandChats.Add(new CommandChat("r", "X", "Dịch phải X"));
+            CommandChats.Add(new CommandChat("amove", "X_Y", "Dịch chuyển đến vị trí X Y"));
             // Tính năng khác
             CommandChats.Add(new CommandChat("chantn", "Bật/Tắt chặn tin nhắn riêng"));
             CommandChats.Add(new CommandChat("confirm", "Mở menu vừa xác nhận"));
