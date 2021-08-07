@@ -215,8 +215,9 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("oclient", "Kết nối với QLTK", true));
             CommandChats.Add(new CommandChat("qclient", "Thoát kết nối với QLTK", true));
             CommandChats.Add(new CommandChat("iclient", "Trạng thái kết nối với QLTK", true));
-
-
+            //Auto hồi sinh
+            CommandChats.Add(new CommandChat("ahsme", "Bật/Tắt auto tự hồi sinh", true));
+            CommandChats.Add(new CommandChat("ahsme", "X", "Chỉnh thời gian hồi sinh mỗi X giây", true));
         }
 
         static void Main(string[] args)
