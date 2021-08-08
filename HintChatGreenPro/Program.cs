@@ -83,6 +83,7 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("hsme", "Tự hồi sinh dành cho namec"));
             CommandChats.Add(new CommandChat("ahs", "Bật/Tắt auto hồi sinh bằng ngọc"));
             CommandChats.Add(new CommandChat("gmt", "Bật/Tắt khoá mục tiêu đang chọn"));
+            CommandChats.Add(new CommandChat("sgiaodich", "Mời giao dịch nhân vật đang chọn"));
             // Auto Khu
             CommandChats.Add(new CommandChat("k", "X", "Đổi khu X"));
             // Auto đệ tử
