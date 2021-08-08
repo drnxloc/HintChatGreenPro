@@ -63,6 +63,7 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("fboss ", "X", "Tìm boss có tên X"));
             CommandChats.Add(new CommandChat("clfboss", "Xoá danh sách tìm boss"));
             CommandChats.Add(new CommandChat("vfboss", "Xem danh sách tìm boss"));
+            CommandChats.Add(new CommandChat("focusboss", "Tự động trỏ mục tiêu boss"));
             // Ẩn thông tin
             CommandChats.Add(new CommandChat("antk", "Ẩn thông tin tài khoản, hiện Chưa đăng ký"));
             CommandChats.Add(new CommandChat("hskill", "Bật/Tắt hiển thị thời gian hồi skill"));
