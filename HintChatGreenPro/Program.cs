@@ -75,9 +75,9 @@ namespace HintChatGreenPro
             // Chức năng hỗ trợ
             CommandChats.Add(new CommandChat("s", "X", "Chỉnh tốc độ giày X"));
             CommandChats.Add(new CommandChat("speed", "X", "Cheat tốc độ game X"));
-            CommandChats.Add(new CommandChat("ak", "Bật/Tắt tự đánh (Với các đối tượng gây được sát thương)"));
-            CommandChats.Add(new CommandChat("xak", "Bật/Tắt tự đánh (Với tất cả đối tượng được trỏ)"));
-            CommandChats.Add(new CommandChat("ak", "X", "Bật/Tắt theo Xmilis"));
+            CommandChats.Add(new CommandChat("ak", "Bật/Tắt tự đánh (Với tất cả đối tượng được trỏ)"));
+            CommandChats.Add(new CommandChat("xak", "Bật/Tắt tự đánh (Với các đối tượng gây được sát thương)"));
+            CommandChats.Add(new CommandChat("tak", "X", "Chỉnh tốc độ AK Xmilis"));
             CommandChats.Add(new CommandChat("tl", "Gọi Calic qua tương lai"));
             CommandChats.Add(new CommandChat("night", "Đổi màu trời tối (Chỉ bật ở cấu hình cao)"));
             CommandChats.Add(new CommandChat("hsme", "Tự hồi sinh dành cho namec"));
@@ -89,6 +89,7 @@ namespace HintChatGreenPro
             // Auto đệ tử
             CommandChats.Add(new CommandChat("udt", "Bật/Tắt hiển thị chỉ số đệ tử real-time"));
             CommandChats.Add(new CommandChat("csdt", "Mở chỉ số đệ tử"));
+            CommandChats.Add(new CommandChat("anhatpet", "Bật/tắt nhặt xa up đệ"));
             // Auto Đậu
             CommandChats.Add(new CommandChat("chodau", "Bật/Tắt cho đậu"));
             CommandChats.Add(new CommandChat("xindau", "Bật/Tắt xin đậu"));
