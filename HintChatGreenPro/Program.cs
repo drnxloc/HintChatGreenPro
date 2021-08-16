@@ -52,6 +52,7 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("minimap", "Bật/Tắt hiển thị minimap"));
             CommandChats.Add(new CommandChat("schar", "Bật/Tắt hiển thị danh sách người chơi trong map"));
             CommandChats.Add(new CommandChat("sinfo", "Bật/Tắt hiển thị thông tin sư phụ - đệ tử"));
+            CommandChats.Add(new CommandChat("ttdt", "Bật/Tắt hiển thị thông tin đệ tử"));
             CommandChats.Add(new CommandChat("mshow", "Bật/Tắt hiển thị thông tin"));
             CommandChats.Add(new CommandChat("khoakhu", "Bật/Tắt khoá chuyển khu"));
             CommandChats.Add(new CommandChat("unikey", "Bật/Tắt gõ tiếng việt (Tắt phần mềm gõ tiếng việt trước khi dùng)"));
@@ -63,6 +64,7 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("fboss ", "X", "Tìm boss có tên X"));
             CommandChats.Add(new CommandChat("clfboss", "Xoá danh sách tìm boss"));
             CommandChats.Add(new CommandChat("vfboss", "Xem danh sách tìm boss"));
+            CommandChats.Add(new CommandChat("focusboss", "Tự động trỏ mục tiêu boss"));
             // Ẩn thông tin
             CommandChats.Add(new CommandChat("antk", "Ẩn thông tin tài khoản, hiện Chưa đăng ký"));
             CommandChats.Add(new CommandChat("hskill", "Bật/Tắt hiển thị thời gian hồi skill"));
