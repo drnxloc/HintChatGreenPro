@@ -54,7 +54,7 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("sinfo", "Bật/Tắt hiển thị thông tin sư phụ - đệ tử"));
             CommandChats.Add(new CommandChat("ttdt", "Bật/Tắt hiển thị thông tin đệ tử"));
             CommandChats.Add(new CommandChat("mshow", "Bật/Tắt hiển thị thông tin"));
-            CommandChats.Add(new CommandChat("khoakhu", "Bật/Tắt khoá chuyển khu"));
+            CommandChats.Add(new CommandChat("nedame", "Bật/Tắt né Boss/Người khi bị đánh"));
             CommandChats.Add(new CommandChat("unikey", "Bật/Tắt gõ tiếng việt (Tắt phần mềm gõ tiếng việt trước khi dùng)"));
             CommandChats.Add(new CommandChat("lgoto", "Dịch chuyển lại tới đối tượng đã dịch chuyển trước đó"));
             // Săn boss
@@ -96,6 +96,7 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("chodau", "Bật/Tắt cho đậu"));
             CommandChats.Add(new CommandChat("xindau", "Bật/Tắt xin đậu"));
             CommandChats.Add(new CommandChat("thudau", "Bật/Tắt thu đậu (Nhân vật phải đứng ở nhà)"));
+            CommandChats.Add(new CommandChat("thudau2", "Bật/Tắt thu đậu bằng Tự Động Luyện Tập (Nhân vật không cần đứng ở nhà)"));
             CommandChats.Add(new CommandChat("spean ", "X", "Thêm nhân vật X vào danh sách được cho đậu (Chỉ định nhân vật nhận đậu thần)"));
             CommandChats.Add(new CommandChat("clspean", "Xoá danh sách nhân vật nhận đậu thần"));
             CommandChats.Add(new CommandChat("vspean", "Hiển thị danh sách nhận đậu thần"));
