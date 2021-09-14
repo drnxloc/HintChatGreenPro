@@ -161,6 +161,7 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("addt", "Thêm/Xoá loại quái hoặc loại vật phẩm ở danh sách tương ứng"));
             CommandChats.Add(new CommandChat("ts", "Bật/Tắt tự động đánh quái"));
             CommandChats.Add(new CommandChat("nsq", "Bật/Tắt né siêu quái khi tự động đánh quái (Mặc định bật)"));
+            CommandChats.Add(new CommandChat("ksq", "Bật/Tắt tàn sát cướp quái (Mặc định bật)"));
             CommandChats.Add(new CommandChat("addm", "X", "Thêm vào/Xoá khỏi danh sách đánh quái id X (X là id quái)"));
             CommandChats.Add(new CommandChat("addtm", "Thêm vào/Xoá khỏi danh sách đánh loại quái id X (X là id loại quái)"));
             CommandChats.Add(new CommandChat("clrm", "Xoá danh sách tàn sát"));
