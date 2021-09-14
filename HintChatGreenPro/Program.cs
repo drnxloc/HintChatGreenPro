@@ -92,6 +92,7 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("udt", "Bật/Tắt hiển thị chỉ số đệ tử real-time"));
             CommandChats.Add(new CommandChat("csdt", "Mở chỉ số đệ tử"));
             CommandChats.Add(new CommandChat("anhatpet", "Bật/tắt nhặt xa up đệ"));
+            CommandChats.Add(new CommandChat("akok", "Bật/Tắt up đệ kaioken"));
             // Auto Đậu
             CommandChats.Add(new CommandChat("chodau", "Bật/Tắt cho đậu"));
             CommandChats.Add(new CommandChat("xindau", "Bật/Tắt xin đậu"));
@@ -106,7 +107,7 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("atc", "Bật/Tắt auto chat"));
             CommandChats.Add(new CommandChat("atc ", "X", "Thay đổi nội dung auto chat thành X"));
             CommandChats.Add(new CommandChat("actg", "Bật/Tắt auto chat thế giới"));
-            CommandChats.Add(new CommandChat("tatcg", "X", "Set thời gian giữa mỗi lần chat thế giới X giây"));
+            CommandChats.Add(new CommandChat("tactg", "X", "Set thời gian giữa mỗi lần chat thế giới X giây"));
             CommandChats.Add(new CommandChat("actg ", "X", "Thay đổi nội dung auto chat thế giới thành X"));
             // Fake thông tin
             CommandChats.Add(new CommandChat("vang", "X", "Fake vàng ảo X"));
@@ -141,9 +142,11 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("c", "Đóng băng skill hiện tại"));
             CommandChats.Add(new CommandChat("uitem", "X", "Sử dụng itemID X"));
             CommandChats.Add(new CommandChat("gofocus", "Dịch đến đối tượng đang trỏ"));
+            CommandChats.Add(new CommandChat("anho", "Auto dùng nho xanh/tím khi thể lực dưới 5%"));
             // Né Boss Up Đệ
-            CommandChats.Add(new CommandChat("maxchar", "X", "Thiết lập số người tối đa trong khu là X"));
-            CommandChats.Add(new CommandChat("neboss", "Bật/Tắt né boss up đệ"));
+            CommandChats.Add(new CommandChat("maxchar", "X", "Thiết lập số người tối đa trong khu là X", true));
+            CommandChats.Add(new CommandChat("dchar", "Bật/Tắt chuyển khu khi người > maxchar", true));
+            CommandChats.Add(new CommandChat("neboss", "Bật/Tắt né boss up đệ", true));
             // Auto Login
             CommandChats.Add(new CommandChat("alogin", "Bật/Tắt auto login khi mất kết nối"));
             CommandChats.Add(new CommandChat("akhu", "Bật/Tắt vào khu cũ khi auto login"));
@@ -225,6 +228,8 @@ namespace HintChatGreenPro
             //Auto hồi sinh
             CommandChats.Add(new CommandChat("ahsme", "Bật/Tắt auto tự hồi sinh", true));
             CommandChats.Add(new CommandChat("ahsme", "X", "Chỉnh thời gian hồi sinh mỗi X giây", true));
+            //Up set KH
+            CommandChats.Add(new CommandChat("bando", " Bật/tắt bán đồ rác up set KH (Hỗ trợ 3 hành thinh, mọi map up)", true));
         }
 
         static void Main(string[] args)
