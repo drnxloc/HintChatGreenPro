@@ -79,7 +79,6 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("speed", "X", "Cheat tốc độ game X"));
             CommandChats.Add(new CommandChat("ak", "Bật/Tắt tự đánh (Với tất cả đối tượng được trỏ)"));
             CommandChats.Add(new CommandChat("xak", "Bật/Tắt tự đánh (Với các đối tượng gây được sát thương)"));
-            CommandChats.Add(new CommandChat("tsak", "Bật/Tắt càn quét cả khu bằng ak (Với các đối tượng gây được sát thương)"));
             CommandChats.Add(new CommandChat("tak", "X", "Chỉnh tốc độ AK Xmilis"));
             CommandChats.Add(new CommandChat("tl", "Gọi Calic qua tương lai"));
             CommandChats.Add(new CommandChat("night", "Đổi màu trời tối (Chỉ bật ở cấu hình cao)"));
@@ -103,7 +102,7 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("clspean", "Xoá danh sách nhân vật nhận đậu thần"));
             CommandChats.Add(new CommandChat("vspean", "Hiển thị danh sách nhận đậu thần"));
             // Auto Skill
-            CommandChats.Add(new CommandChat("askill", "X", "Bật/Tắt auto skill X"));
+            CommandChats.Add(new CommandChat("askillX", "Bật/Tắt auto skill X"));
             // Auto Chat
             CommandChats.Add(new CommandChat("atc", "Bật/Tắt auto chat"));
             CommandChats.Add(new CommandChat("atc ", "X", "Thay đổi nội dung auto chat thành X"));
@@ -132,8 +131,7 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("confirm", "Mở menu vừa xác nhận"));
             CommandChats.Add(new CommandChat("szone", "Mở bảng đổi khu"));
             CommandChats.Add(new CommandChat("friend", "Mở bảng bạn bè"));
-            CommandChats.Add(new CommandChat("flag", "Mở bảng đổi cờ"))
-            CommandChats.Add(new CommandChat("aflag", "Bật/tắt auto đổi cờ đen"));
+            CommandChats.Add(new CommandChat("flag", "Mở bảng đổi cờ"));
             CommandChats.Add(new CommandChat("enemy", "Mở bảng kẻ thù"));
             CommandChats.Add(new CommandChat("petinfo", "Mở thông tin đệ tử"));
             CommandChats.Add(new CommandChat("scsbX", "Sử dụng menu X capsule bay"));
