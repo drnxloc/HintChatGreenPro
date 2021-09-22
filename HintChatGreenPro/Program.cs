@@ -175,6 +175,10 @@ namespace HintChatGreenPro
             CommandChats.Add(new CommandChat("abf", "X", "Bật tự động sử dụng đậu thần khi HP dưới X%"));
             CommandChats.Add(new CommandChat("abf", "X_Y", "Bật tự động sử dụng đậu thần khi HP dưới X%, KI dưới Y%"));
             CommandChats.Add(new CommandChat("vdh", "Bật/Tắt vượt địa hình (mặc định Bật)"));
+            CommandChats.Add(new CommandChat("ahp", "X", "Đánh quái có HP <= X"));
+            CommandChats.Add(new CommandChat("ahp", "Tắt đánh quái theo HP tối đa"));
+            CommandChats.Add(new CommandChat("mhp", "X", "Đánh quái có HP >= X"));
+            CommandChats.Add(new CommandChat("mhp", "Tắt đánh quái theo HP tối thiểu"));
             // Lệnh tự động nhặt vật phẩm
             CommandChats.Add(new CommandChat("anhat", "Bật/Tắt tự động nhặt vật phẩm (Mặc định bật)"));
             CommandChats.Add(new CommandChat("itm", "Bật/Tắt lọc không nhặt vật phẩm của người khác (Mặc định bật)"));
